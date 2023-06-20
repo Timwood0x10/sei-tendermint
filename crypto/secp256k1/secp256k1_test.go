@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	underlyingSecp256k1 "github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcutil/base58"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	underlyingSecp256k1 "github.com/tendermint/btcd/btcec"
 
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/secp256k1"

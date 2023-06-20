@@ -5,7 +5,6 @@ go 1.17
 require (
 	github.com/BurntSushi/toml v1.1.0
 	github.com/adlio/schema v1.3.0
-	github.com/btcsuite/btcd v0.22.1
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/go-kit/kit v0.12.0
@@ -247,6 +246,7 @@ require (
 	github.com/prometheus/common v0.34.0
 	github.com/sasha-s/go-deadlock v0.3.1
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
+	github.com/tendermint/btcd v0.1.1
 	go.opentelemetry.io/otel v1.9.0
 	go.opentelemetry.io/otel/sdk v1.9.0
 	go.opentelemetry.io/otel/trace v1.9.0
